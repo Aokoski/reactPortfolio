@@ -23,7 +23,7 @@ class Contact extends Component {
         </div>
         </Fade>
 
-            <span className='footer'>Made With ❤ by <a href="http://chetanverma.com/">Chetan Verma</a></span>
+            <span className='footer'>Made With ❤ by <a href="https://aokoski.github.io/aokportfolio/">aok</a></span>
         </div>);
     }
 }

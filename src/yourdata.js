@@ -1,58 +1,57 @@
 export default
     {
-        //(Please Do Not Remove The comma(,) after every variable)
-        //Change The Website Template
-        name :'chetanverma.',
+      
+   
+        name :'Aubrey O. Koski',
         headerTagline: [//Line 1 For Header
-                        'Hi 👋 You found me! I am Your Name.',
+                        'Hi 👋, I am Aubrey.',
                         //Line 2 For Header
-                        'Digital designer ',
+                        'Creative/FrontEnd Developer ',
                         //Line 3 For Header
-                        'from India'
+                        'from Minnesota'
     ],
         //Contact Email
-        contactEmail:'hello@chetanverma.com',
-        // Add Your About Text Here
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        contactEmail:'aubrey@prginc.com',
+       
+        abouttext: "Hello, my name is Aubrey Onni Koski(AOK). I was born and raised in Minnesota, where I attended Hopkins High School, before heading to UW-Madison to study Strategic Communications and Journalism(BA), as a Chancellor's Scholar. I'm half Finnish and Half Black(pretty sure I'm the only one ever). I'm passionate about employing my creative talent to help others. I'm an aspiring Creative Director, with a unique set of skills that makes me very dangerous. I'm a published journalist, but my true calling is creative ideation, whether it be branding, copywriting, design, or front-end development.",
+        aboutImage:'./profpic.jpg',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
-       // Change Projects Here 
+    
        projects:[
            {
-            id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-             //Project URL - Add Your Project Url Here
-             url:'http://chetanverma.com/'
+            id: 1,
+            title:'The Peace Project', 
+             service:'UI/UX Design, Branding', 
+      
+             imageSrc:"https://imgur.com/UPGOlg4.png",
+          
+             url:'https://ygajway.github.io/Project_01/index.html'
             },
             {
-                id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
-                service: 'Website Development',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                id: 2,
+                title: 'Progress Insight',
+                service: 'Branding, Frontend',
+                imageSrc: "https://imgur.com/QJ2iKuf.png",
+                url: 'https://bigtunaproj.herokuapp.com/'
             },
             { 
-                id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
+                id: 3,
+                title: 'NoteTaker',
                 service: 'Web App',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                imageSrc: "https://imgur.com/GoJycXD.png",
+                url: 'https://ancient-oasis-02957.herokuapp.com/'
             },
             {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                id: 4,
+                title: 'Fitness Tracker',
+                service: 'Web App',
+                imageSrc: "https://imgur.com/1x7awBU.png",
+                url: 'https://young-sands-52271.herokuapp.com/'
            }
 
                     /*
 
-                    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
                 ,{
                 id: 5,
                 title: 'Project Five',
@@ -63,21 +62,14 @@ export default
                 */
         ],
         social: [
-            // Add Or Remove The Link Accordingly
+           
             {   name:'Github',
-                url:'https://github.com/chetanverma16'},
+                url:'https://github.com/Aokoski'},
             {
-                name: 'Behance',
-                url: 'https://www.behance.net/chetanverma'
-            },
-            {
-                name: 'Dribbble',
-                url: 'https://dribbble.com/chetanverma'
-            },
-            {
-                name: 'Instagram',
-                url: 'https://www.instagram.com/cv.uidesign/'
+                name: 'LinkedIn',
+                url: 'https://www.linkedin.com/in/aubrey-koski-7a95999a/'
             }
+           
 
         ]
     }
