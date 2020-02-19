@@ -2,7 +2,7 @@ export default
     {
       
    
-        name :'Aubrey O. Koski',
+        name :'@ok',
         headerTagline: [//Line 1 For Header
                         'Hi 👋, I am Aubrey.',
                         //Line 2 For Header
